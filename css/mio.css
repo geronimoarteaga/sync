@@ -1,40 +1,52 @@
-BODY,DIV {
-	font-family: Verdana, Arial;
-	font-size: 1.1em;
-	background-color: #FFFFCC;
-}
- a:link {
-	text-decoration:none;
-	color: #0000FF;
-}
- a:visited {
-	text-decoration:none;
-	color: #0000FF;
-}
- a:hover {text-decoration:none; color:red;}
- a:active {text-decoration:none;}
-table, th, td
- {
-	border: 1px solid black;
-	font-size: 1.2em;
-	text-align:center;
-	background-color: #CCCCC2;
-	background-image: url('http://liturgiadelashoras.com.ar/images/fnd.jpg');
-	background-repeat: repeat-x;
-	visibility: visible;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-style: normal;
- }
-.titulo{
-	border: 1px solid black;
-	color: #FFFFFF;
-	font-size: 1.2em;
-	background-color: #00BBFF;
-	background-image: none;
-	border:none;
-	visibility: visible;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-style: normal;
+BODY, DIV {
+  font-family: Verdana, Arial;
+  font-size: 1.1em;
+  background-color: #FFFFCC;
 }
 
-.normal {FONT-FAMILY: Verdana, Arial}
+a:link {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #CCCCC2;
+  background-image: url('https://geronimoarteaga.github.io/sync/images/fnd.jpg');
+  background-repeat: repeat-x;
+  visibility: visible;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.titulo {
+  border: 1px solid black;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  background-color: #00BBFF;
+  background-image: none;
+  border: none;
+  visibility: visible;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.normal {
+  FONT-FAMILY: Verdana, Arial
+}
