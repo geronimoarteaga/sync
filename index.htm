@@ -1,29 +1,39 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <html>
+
 <head>
-  <title>Calendar</title>
+  <title>Liturgia de las Horas</title>
   <meta charset="utf-8" />
-  <script type="text/javascript" src="script.js"></script>
-  <link href="styles.css" type="text/css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link href="css/calendar.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="js/calendar.js"></script>
 </head>
 
 <body>
-  <div class="calendar_js-months">
-    <div class="month_html_element" id="month-0" onclick="Create_Month(0);">Enero</div>
-    <div class="month_html_element" id="month-1" onclick="Create_Month(1);">Febrero</div>
-    <div class="month_html_element" id="month-2" onclick="Create_Month(2);">Marzo</div>
-    <div class="month_html_element" id="month-3" onclick="Create_Month(3);">Abril</div>
-    <div class="month_html_element" id="month-4" onclick="Create_Month(4);">Mayo</div>
-    <div class="month_html_element" id="month-5" onclick="Create_Month(5);">Junio</div>
-    <div class="month_html_element" id="month-6" onclick="Create_Month(6);">Julio</div>
-    <div class="month_html_element" id="month-7" onclick="Create_Month(7);">Agosto</div>
-    <div class="month_html_element" id="month-8" onclick="Create_Month(8);">Septiembre</div>
-    <div class="month_html_element" id="month-9" onclick="Create_Month(9);">Octubre</div>
-    <div class="month_html_element" id="month-10" onclick="Create_Month(10);">Noviembre</div>
-    <div class="month_html_element" id="month-11" onclick="Create_Month(11);">Diciembre</div>
-  </div>
-
-  <div class="calendar_js" id="calendar_js"></div>
-  <div class="year" id="year"></div>
-
+  <table width=100%>
+    <tr>
+      <td id="title">
+        Liturgia de las Horas
+      </td>
+    </tr>
+  </table>
+  <br />
+  <div class="calendar" id="calendar"></div>
+  <!--div class="months">
+    <div class="month" onclick="createCalendarMonth(0);">Enero</div>
+    <div class="month" onclick="createCalendarMonth(1);">Febrero</div>
+    <div class="month" onclick="createCalendarMonth(2);">Marzo</div>
+    <div class="month" onclick="createCalendarMonth(3);">Abril</div>
+    <div class="month" onclick="createCalendarMonth(4);">Mayo</div>
+    <div class="month" onclick="createCalendarMonth(5);">Junio</div>
+    <div class="month" onclick="createCalendarMonth(6);">Julio</div>
+    <div class="month" onclick="createCalendarMonth(7);">Agosto</div>
+    <div class="month" onclick="createCalendarMonth(8);">Septiembre</div>
+    <div class="month" onclick="createCalendarMonth(9);">Octubre</div>
+    <div class="month" onclick="createCalendarMonth(10);">Noviembre</div>
+    <div class="month" onclick="createCalendarMonth(11);">Diciembre</div>
+  </div-->
 </body>
+
 </html>
