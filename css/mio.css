@@ -1,17 +1,17 @@
-BODY, DIV {
+body, div {
   font-family: Verdana, Arial;
   font-size: 1.1em;
-  background-color: #FFFFCC;
+  background-color: #ffffcc;
 }
 
 a:link {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 
 a:visited {
   text-decoration: none;
-  color: #0000FF;
+  color: #0000ff;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ table, th, td {
   border: 1px solid black;
   font-size: 1.2em;
   text-align: center;
-  background-color: #CCCCC2;
+  background-color: #ccccc2;
   background-image: url('https://geronimoarteaga.github.io/sync/images/fnd.jpg');
   background-repeat: repeat-x;
   visibility: visible;
@@ -37,9 +37,9 @@ table, th, td {
 
 .titulo {
   border: 1px solid black;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.2em;
-  background-color: #00BBFF;
+  background-color: #00bbff;
   background-image: none;
   border: none;
   visibility: visible;
@@ -48,5 +48,5 @@ table, th, td {
 }
 
 .normal {
-  FONT-FAMILY: Verdana, Arial
+  font-family: Verdana, Arial
 }
