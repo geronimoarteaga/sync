@@ -70,7 +70,7 @@ function createCalendarDay(day, month) {
   var a = document.createElement("a");
 
   a.innerHTML = day;
-  a.href = today.getFullYear() + "/" + monthAsLink(month) + "/" + dayAsLink(day);
+  a.href = today.getFullYear() + "/" + monthAsLink(month) + "/" + dayAsLink(day) + "/index.htm";
 
   var currentDate = new Date();
   currentDate.setDate(day);
